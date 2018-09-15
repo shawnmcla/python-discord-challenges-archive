@@ -1,3 +1,10 @@
+"""
+Submission by Shawn
+
+Notes:
+Nothing hacky or creative here, just low character count :)
+"""
+
 class S:
  def __init__(s):s.s=tuple()
  def m(s,v):s.s=(*s.s,v)
