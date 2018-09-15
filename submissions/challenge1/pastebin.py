@@ -1,5 +1,8 @@
 """
 Submission by Pastebin
+
+Notes:
+Requires cpython as this solution generates bytecode
 """
 
 k='*-/+^×−÷';v=b'\x14\0',b'\x18\0',b'\x1b\0',b'\x17\0',b'\x13\0';m=dict(zip(k,v*2));b=b'';e=d='';n=();x=0;s=lambda d,n:d in n and(n,n.index(d))or((*n,d),len(n))
