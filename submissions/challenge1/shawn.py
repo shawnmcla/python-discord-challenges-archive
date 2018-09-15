@@ -7,8 +7,7 @@ class S:
  def p(s):t=s.s[-1];s.s=s.s[:-1];return t
 o=lambda z,x,y:{"+":x+y,"−":x-y,"÷":x/(y or 1),"×":x*y}[z]
 def f(i):
- n=r=0
- s=S()
+ n=r=0;s=S()
  for c in i:
   if c.isnumeric():n=n*10+int(c);r=1
   elif c==' ':
